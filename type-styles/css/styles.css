@@ -1,0 +1,49 @@
+html{
+    margin: 5%;
+    background-color: bisque;
+    color: #917136;
+    font-size: 20pt;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    margin: 10%
+}
+
+h2{
+    color: black;
+}
+
+div{
+    margin: 3rem 0;
+}
+
+p{
+    text-indent: 5%;
+}
+
+.ls-expanded{
+    letter-spacing: 0.3em;
+}
+
+.ls-contracted{
+    letter-spacing: -0.1em;
+}
+
+.tt-upper{
+    text-transform: uppercase;
+}
+
+.tt-cap{
+    text-transform: capitalize;
+}
+
+.td-strike{
+    text-decoration: line-through;
+}
+
+.td-under{
+    text-decoration: underline;
+}
