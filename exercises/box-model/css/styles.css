@@ -1,0 +1,25 @@
+.box-layers{
+    background-color: #eeeeee;
+    padding: 2rem 1rem 4rem 1rem;
+    border-top: 10px solid #dddddd;
+    margin: 4rem 0;
+}
+.h2-wrapper{
+    border: 1px solid black;
+    /* addition of border or padding cancels the margin collapse effect */
+}
+.box-sizing-example{
+    background-color: #eeeeee;
+    padding: 2rem;
+    border: 10px solid #dddddd;
+    width: 100%;
+    box-sizing: border-box;
+    /* setting width can cause spillover when scrolling to the right */
+}
+
+.overflow-example{
+    width: 50%;
+    height: 300px;
+    overflow: auto;
+    /* don't set the height of the box - you should let it be flexible - growing automatically to get all of the text */
+}
