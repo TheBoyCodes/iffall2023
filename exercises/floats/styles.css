@@ -1,0 +1,9 @@
+.portrait{
+    float: left;
+    margin: 0 2rem 2rem 0;
+    /* margin can be used to change the amount of white space around the images */
+}
+
+.instructions{
+    clear:both;
+}
