@@ -1,0 +1,148 @@
+html{
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+header{
+    background-color: rgba(255,0,0,0.5);
+    background-image: url("img/sky.jpg");
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: rgb(134, 134, 226);
+}
+
+h1, h2, h3, p{
+    margin: 0;
+}
+
+.column-container{
+    width: 956px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+header .column-container{
+    padding-top: 152px;
+    padding-bottom: 182px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: -3px;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+section.content-grid{
+    background-color: rgb(232, 168, 232);
+}
+
+section.closing-summary{
+    background-color: rgb(218, 155, 117);
+}
+
+.intro-text h3{
+    padding-bottom: 34px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.37;
+}
+
+.wrapped-image{
+    width: 400px;
+    height: 300px;
+    size: cover;
+    border: 2px solid white;
+    float: right;
+    margin: 0 0 29px 33px;
+}
+
+.content-grid .column-container{
+    padding-top: 95px;
+}
+
+.grid{
+    padding: 0;
+    margin-top: 32px;
+    overflow:hidden;
+}
+
+.grid li{
+    display: block;
+    float: left;
+    width: 478px;
+    text-align: left;
+    margin-bottom: 24px;
+    padding-right: 22px;
+    box-sizing: border-box;
+}
+
+.grid .smaller-image{
+    width: 200px;
+    height: 150px;
+    size: cover;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.grid .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid .text{
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+/* .grid::after{
+    content: "";
+    display: block;
+    clear: both; 
+} */
+
+.grid ul{
+    margin:0;
+}
+
+
+.closing-summary .column-container{
+    /* box-sizing: border-box; */
+    padding-top: 61px;
+}
+
+.closing-summary h3{
+    padding-bottom: 35px;
+}
+
+.closing-summary p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.45;
+    word-spacing: 2.9px;
+    display:block;
+    box-sizing: border-box;
+    padding: 0 122px 100px 122px;
+}
+
+footer{
+    display: block;
+    font-size: 18px;
+    padding-left: 115px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(229, 148, 148);
+}
